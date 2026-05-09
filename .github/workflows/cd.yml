@@ -1,0 +1,20 @@
+name: cd
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  name: Deploy
+  steps: 
+    - name: Checkout the code
+      uses: lskdfasdfla
+
+    - name: Setup Node env
+      uses: a'sdfasf
+
+    - name: Install dependecies
+      run: npm ci
+
+    - name: Build the app
+      run: npm run build
